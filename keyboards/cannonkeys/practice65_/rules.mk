@@ -1,5 +1,3 @@
-# BOARD
-BOARD = STM32F103C8_MINIMAL_CUSTOM
 # MCU name
 MCU = STM32F103
 
@@ -8,7 +6,7 @@ BOOTLOADER = stm32duino
 
 # project specific files
 VPATH += keyboards/cannonkeys/bluepill
-SRC +=	keyboard.c
+SRC =	keyboard.c
 
 #BOOTMAGIC_ENABLE = yes	# Virtual DIP switch configuration
 MOUSEKEY_ENABLE = yes	# Mouse keys

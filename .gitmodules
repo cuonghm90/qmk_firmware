@@ -2,23 +2,24 @@
 	path = lib/chibios
 	url = https://github.com/qmk/ChibiOS
 	branch = master
-[submodule "lib/chibios-contrib"]
-	path = lib/chibios-contrib
-	url = https://github.com/qmk/ChibiOS-Contrib
-	branch = master
 [submodule "lib/ugfx"]
 	path = lib/ugfx
-	url = https://github.com/qmk/uGFX
+	url = https://github.com/qmk/uGFX.git
 	branch = master
-[submodule "lib/googletest"]
-	path = lib/googletest
-	url = https://github.com/qmk/googletest
 [submodule "lib/lufa"]
 	path = lib/lufa
-	url = https://github.com/qmk/lufa
+	url = https://github.com/qmk/lufa.git
 [submodule "lib/vusb"]
 	path = lib/vusb
-	url = https://github.com/qmk/v-usb
+	url = https://github.com/qmk/v-usb.git
 [submodule "lib/printf"]
 	path = lib/printf
-	url = https://github.com/qmk/printf
+	url = https://github.com/qmk/printf.git
+[submodule "https://github.com/msvisser/qmk_firmware.git"]
+	branch = anne_pro
+[submodule "lib/chibios-contrib"]
+	path = lib/chibios-contrib
+	url = https://github.com/qmk/ChibiOS-Contrib.git
+[submodule "lib/googletest"]
+	path = lib/googletest
+	url = https://github.com/qmk/googletest.git
